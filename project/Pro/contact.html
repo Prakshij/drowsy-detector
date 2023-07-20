@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>DROWSINESS DETECTION SYSTEM</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" 
+rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="help.html">HELP</a></li>
+                    <li><a href="contact.html">FEEDBACK</a></li>
+                    <li><a href="map.html">MAP</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <h1 style="color:white">WE VALUE YOUR FEEDBACK!!</h1>
+    </section>
+    <!--blog page content-->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src=>
+                <h2>HOW'S YOUR EXPERIENCE USING DROWSY DETECTOR?</h2>
+                <p></p>
+            </p>
+                        <div class="comment-box">
+                            <h3>Leave a comment</h3>
+                            <form class="comment-form">
+                                <input type="text" placeholder="Enter Name">
+                                <input type="email" placeholder="Enter Email">
+                                <textarea rows="5" placeholder="Your comment">
+                                </textarea>
+                                <button type="submit" class="hero-btn red-btn">
+                                    POST COMMENT
+                                </button>
+                            </form>
+                        </div>
+            </div>
+            
+        </div>
+    </section>
+    <!--footer-->
+    <section class="footer">
+      
+    </section>
+<!--- ------Javascript for Toggle Menu------ --->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+                navLinks.style.right = "0";
+        }
+        function hideMenu(){
+                navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
